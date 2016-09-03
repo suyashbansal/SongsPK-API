@@ -1,5 +1,4 @@
 <?php
-$then = microtime();
 $curl = curl_init();
 curl_setopt ($curl, CURLOPT_URL, "http://www.songspk.guru/");
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
@@ -16,7 +15,5 @@ foreach ($matches as $key) {
   //$suyash[] = $matches2[0];
   $suyash[$key[1]] = array('link' => $matches2[0][1], 'image' => $matches2[0][2], 'name' => substr($matches2[0][3], 0, -10));
 }
-$now = microtime();
 echo json_encode($suyash);
-echo sprintf(" %f", $now-$then);
 ?>
