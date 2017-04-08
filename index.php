@@ -63,7 +63,7 @@
 										<p>
 											Now lets say you have the link to a album page and want all the details of that album with song names and download links.
 											You just have to send the page link via GET method:<br />
-											<code>https://songspk-suyash.herokuapp.com/api/page.php?page=http://www.songspk.guru/mp3/indian_songs/baar_baar_dekho_mp3_songs_download</code>
+											<code>https://songspk-suyash.herokuapp.com/api/page.php?page=http://songspk.io/mp3/indian_songs/baar_baar_dekho_mp3_songs_download</code>
 											<br /><br />This will give you somethink like:<pre><code>{
 "details": {
 	"1": "Baar Baar Dekho",
@@ -84,7 +84,7 @@
 									</header>
 									<footer class="major">
 										<ul class="actions">
-											<li><a href="https://songspk-suyash.herokuapp.com/api/page.php?page=http://www.songspk.guru/mp3/indian_songs/baar_baar_dekho_mp3_songs_download" class="button special" target="_blank">Try this example</a></li>
+											<li><a href="https://songspk-suyash.herokuapp.com/api/page.php?page=http://songspk.io/mp3/indian_songs/baar_baar_dekho_mp3_songs_download" class="button special" target="_blank">Try this example</a></li>
 											<!-- <li><a href="generic.html" class="button">Learn More</a></li> -->
 										</ul>
 									</footer>
@@ -105,7 +105,7 @@
 							<h2>Suyash Bansal</h2>
 							<dl class="alt">
 								<dt>Website</dt>
-								<dd><a href="http://suyashbansal.xyz">http://suyashbansal.xyz</a></dd>
+								<dd><a href="https://suyashbansal.github.io">https://suyashbansal.github.io</a></dd>
 							</dl>
 							<ul class="icons">
 								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>

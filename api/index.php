@@ -1,6 +1,6 @@
 <?php
 $curl = curl_init();
-curl_setopt ($curl, CURLOPT_URL, "http://www.songspk.guru/");
+curl_setopt ($curl, CURLOPT_URL, "http://songspk.io/");
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 $html = curl_exec ($curl);
 curl_close ($curl);
